@@ -64,7 +64,7 @@ fetch(url_train)
         
         for(var t=0; t<10; t++){
             var date = new Date(data['stationboard'][t]['passList'][0]['departure'])
-            var formated_time = `${date.getHours()}:${date.getMinutes()}`
+            var formated_time = `${(date.getHours()).toString().padStart(2, '0')}:${(date.getMinutes()).toString().padStart(2, '0')}`
             var row = `<tr>
                             <td>${formated_time}</td>
                             <td>${data['stationboard'][t]['category'] + " " + data['stationboard'][t]['number']}</td>
@@ -132,7 +132,7 @@ switch_button.addEventListener('click', () =>{
             
             for(var t=0; t<10; t++){
                 var date = new Date(data['stationboard'][t]['passList'][0]['departure'])
-                var formated_time = `${date.getHours()}:${date.getMinutes()}`
+                var formated_time = `${(date.getHours()).toString().padStart(2, '0')}:${(date.getMinutes()).toString().padStart(2, '0')}`
                 if (data['stationboard'][t]['category'] == 'RE'){
                     num = '33'
                 }
