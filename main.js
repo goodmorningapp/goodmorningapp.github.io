@@ -55,7 +55,7 @@ fetch(url_weather)
        
     })
 
-var url_train = 'http://transport.opendata.ch/v1/stationboard?id=8506133&limit=10'
+var url_train = 'https://transport.opendata.ch/v1/stationboard?id=8506133&limit=10'
 var train_table = document.getElementById('train_values')
 
 fetch(url_train)
@@ -121,7 +121,7 @@ switch_button.addEventListener('click', () =>{
            
         })
     
-    var url_train = 'http://transport.opendata.ch/v1/stationboard?id=8506121&limit=10'
+    var url_train = 'https://transport.opendata.ch/v1/stationboard?id=8506121&limit=10'
     var train_table = document.getElementById('train_values')
     
     train_table.innerHTML = ''
