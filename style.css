@@ -49,7 +49,7 @@
     width: 50%;
     height: 50%;
     filter: invert(100%);
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .weather{
@@ -72,7 +72,7 @@
 #weather_icon{
     width: 90%;
     height: 90%;
-    object-fit: cover;
+    object-fit: contain;
 
 }
 
@@ -108,7 +108,7 @@
 .train_table{
     width: 100%;
     margin-top: 5%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 200;
 }
 
@@ -137,4 +137,23 @@ th{
     .table_value{
         font-size: 0.7em;
     }
+}
+
+@media screen and (min-width: 800px){
+    
+.weather{
+    height: 30%;
+    padding: 5px;
+    margin: 20px 10px 20px 10px;
+    background-color: #2d4a53;
+    display: flex;
+    border-radius: 40px;
+    align-self: center;
+}
+.train_table{
+    width: 100%;
+    margin-top: 1%;
+    font-size: 0.8em;
+    font-weight: 200;
+}
 }
