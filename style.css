@@ -118,7 +118,7 @@ th{
     text-align: left;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 350px){
     .train_table{
         width: 100%;
         font-size: 0.5em;
