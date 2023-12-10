@@ -88,7 +88,7 @@
 }
 
 .table_name{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .table_value{
@@ -107,13 +107,34 @@
 
 .train_table{
     width: 100%;
+    margin-top: 5%;
     font-size: 0.8em;
     font-weight: 200;
-
 }
 
 
 th{
     font-weight: normal;
     text-align: left;
+}
+
+@media screen and (max-width: 300px){
+    .train_table{
+        width: 100%;
+        font-size: 0.5em;
+        font-weight: 200;
+    }
+    #text{
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 5%;
+    }
+    .table_name{
+        font-size: 0.8em;
+    }
+    
+    .table_value{
+        font-size: 0.7em;
+    }
 }
