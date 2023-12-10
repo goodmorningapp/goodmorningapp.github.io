@@ -97,7 +97,7 @@
 
 .train{
     height: 42%;
-    padding: 5px;
+    padding: 3%;
     margin: 20px 10px 20px 10px;
     background-color: #2d4a53;
     display: flex;
@@ -107,7 +107,7 @@
 
 .train_table{
     width: 100%;
-    margin-top: 5%;
+    margin-top: 1%;
     font-size: 0.7em;
     font-weight: 200;
 }
@@ -126,16 +126,16 @@ th{
     }
     #text{
         color: white;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: center;
         padding-left: 5%;
     }
     .table_name{
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
     
     .table_value{
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 }
 
