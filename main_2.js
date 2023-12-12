@@ -14,7 +14,7 @@ search_box.addEventListener('keydown', (event) => {
 var station_options = document.getElementById('station_options')
 
 function getId(place){
-    var url_id = 'http://transport.opendata.ch/v1/locations?query=' + place
+    var url_id = 'https://transport.opendata.ch/v1/locations?query=' + place
     fetch(url_id)
         .then(response => response.json())
         .then(data => {
